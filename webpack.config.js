@@ -1,7 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const StyleLintPlugin = require("stylelint-webpack-plugin");
 module.exports = {
     entry: {
         app: "./src/app.js"
@@ -22,13 +21,6 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: "[name].bundle.css",
             chunkFilename: "[id].css"
-        }),
-        new StyleLintPlugin({
-            configFile: path.resolve(__dirname, "stylelint.config.js"),
-            context: path.resolve(__dirname, "src/css"),
-            files: "**/*.css",
-            failOnError: false,
-            quiet: false
         })
     ],
     module: {

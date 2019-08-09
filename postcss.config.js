@@ -6,6 +6,7 @@ module.exports = {
         },
         cssnano: {},
         autoprefixer: {},
+        "postcss-mixins": {},
         "postcss-simple-vars": {},
         "postcss-font-magician": {
             variants: {
