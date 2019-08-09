@@ -1,0 +1,60 @@
+/* user card */
+article.user-card {
+    border: 1px solid $color-gray;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+
+    img {
+        width: 200px;
+        height: 200px;
+        border: 5px solid $color-black;
+    }
+
+    article.user-card__body {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        h3 {
+        }
+    }
+}
+
+article.work-card {
+    height: 100px;
+    width: 320px;
+    border: 1px solid $color-grayer;
+    box-shadow: 5px 5px 5px $color-gray;
+    border-radius: 5px;
+    background-image: linear-gradient(135deg, #81fbb8 10%, #28c76f 100%);
+    position: relative;
+
+    .work-card__employee-number {
+        position: absolute;
+        background-color: $color-white;
+        height: 100%;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: transparent;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-right: 1px solid $color-grayer;
+        h1 {
+            background: linear-gradient(135deg, #81fbb8 10%, #28c76f 100%);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    .work-card__employee-detail {
+        padding-left: 120px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

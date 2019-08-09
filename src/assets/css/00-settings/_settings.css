@@ -1,4 +1,8 @@
-@font-face {
-    font-family: "Source Sans Pro";
-    src: url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400&display=swap");
-}
+$font-main: "Source Sans Pro";
+
+$color-blue: #38318c;
+$color-red: #de2030;
+$color-white: #ffffff;
+$color-gray: #e6e8e6;
+$color-grayer: #ced0ce;
+$color-black: #222;

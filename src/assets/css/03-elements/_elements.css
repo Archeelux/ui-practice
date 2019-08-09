@@ -1,0 +1,11 @@
+* {
+    font-family: $font-main;
+}
+
+body {
+    margin: 100px;
+}
+
+section:not(:first-child) {
+    margin-top: 25px;
+}
